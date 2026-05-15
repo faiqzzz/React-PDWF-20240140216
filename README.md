@@ -1,16 +1,39 @@
-# React + Vite
+# Tugas Pemrograman Desain Web Frontend (PDWF) - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Nama:** Ridho Faiq Ahmad
+**NIM:** 20240140216
+**Kelas:** F
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎸 Project: ChordGalaxy (Guitar Learning Platform)
 
-## React Compiler
+Aplikasi ini adalah sebuah platform landing page sederhana untuk komunitas musisi, khususnya pemain gitar. Fokus utama project ini adalah pada implementasi **React State** untuk perpindahan halaman (Login & Daftar) secara dinamis tanpa reload halaman.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✨ Fitur Utama:
+- **Responsive Design**: Tampilan menyesuaikan antara perangkat Desktop dan Mobile.
+- **Dynamic Background**: Gambar latar belakang berubah sesuai dengan mode (Login/Register).
+- **Glassmorphism UI**: Menggunakan tema gelap dengan efek blur dan transparansi modern.
+- **State Management**: Berpindah antara form Login dan Daftar secara instan menggunakan `useState`.
 
-## Expanding the ESLint configuration
+### 🛠️ Teknologi yang Digunakan:
+- **Vite**: Sebagai build tool yang cepat.
+- **React**: Library utama untuk UI.
+- **Tailwind CSS**: Untuk styling utility-first yang efisien.
+- **Lucide React / Heroicons** (Optional): Untuk pendukung visual.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Output Tugas
+Mahasiswa diminta untuk mengumpulkan source code dan screenshot demo.
+
+1. **Screenshot & Dokumentasi**: [Klik di sini untuk melihat PDF](./Dokumentasi-Tugas-Ridho.pdf)
+2. **Source Code**: Tersedia di repository ini.
+
+---
+
+## 🚀 Cara Menjalankan Project
+1. Clone repository ini.
+2. Jalankan `npm install` untuk mengunduh semua dependency.
+3. Jalankan `npm run dev` untuk memulai development server.
+4. Buka `http://localhost:5173` di browser Anda.
